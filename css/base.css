@@ -8,8 +8,8 @@ body {
     line-height: 1.5em;
     color: #333333;
     background-color: #003322;
-    -webkit-box-shadow: 0 0 12px rgba(0, 0, 3, 0.4);
-    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 12px rgba(0, 0, 3, 0.4);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
     
 }
@@ -21,13 +21,12 @@ header {
         color: #fff
 }      
 nav {
-    background-color: #000000); 
+    background-color: #fff); 
     padding: 0.625em 5%;
-}
-    
+}    
 article {
     background: url(tree_bark/tree.png);
-    padding: 1.5em 5% 0.625em;
+    padding: 0.625em 5%;
     color: #2b1b17;
     font-size: 0.9em;
 }
@@ -44,13 +43,17 @@ header h1 {
     padding-bottom:5px;
 }
 article h1 {
-    font-family:"Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-family:Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:32px;
     font-weight:400;
     margin: 0 0 20px;
+    
 }
-article p {
-    margin:16px 0;
+p {
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height:24px;
+        
 }
 
 article ul {
@@ -64,7 +67,10 @@ article li{
 }
 
 aside {
-    background-color: #2b1b17;
+    background: url(tree_bark/tree.png);
+    padding: 1.5em 5% 0.625em;
+    color: #2b1b17;
+    font-size: 0.9em;;
     float: right;
     width: 30%; 
     margin: 0 0 10px 5%;
