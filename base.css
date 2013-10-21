@@ -38,19 +38,7 @@ header a:hover{
 }
 
 
-nav a: link, nav a:visited{
-    font-family: Papyrus, Arial, Helvetica, san-serif;
-    font-size: 24px;
-    font-weight:400;
-    padding:0 16px;
-    color: #003322;
-    text-decoration: none;
-}
 
-nav a: hover, nav a:active {
-    color:#003322;
-    text-decoration:underline;
-}
 
 article a:link, article a:visited{
     color:#003322;
