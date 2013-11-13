@@ -13,7 +13,8 @@ body {
 
 nav{
     background:url(tree_bark/tree.png);
-    padding: 0.625em 5%;
+    padding: 0.625em 5%;  
+    
 }
         
         
@@ -103,3 +104,34 @@ footer {
     padding: 0 10px 0 10px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 320px) {
+    
+    body {
+       padding: 3%;
+    
+    } 
+    
+    #h1, h2 {
+        text-align: center;
+        
+    }
+    
+    #p {
+        text-align: left
+        
+        
+    }
+    nav {
+        width: 100%;
+        
+        
+    }
+    #content {
+       
+        clear: left;
+        margin-left: 5%;
+        width: 100%;
+}
+    
+    
