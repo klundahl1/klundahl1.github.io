@@ -6,27 +6,29 @@
 body {
     margin: 0 auto;
     padding: 2em;
-    max-width: 800px;
+    max-width: 900px;
     font-family: Arial, Helvetica, san-serif;
     font-size: 16px;
     line-height: 1.5em;
-    color: #fff;
-    background-color: #096600;
+    color: #D3E021;
+    background-image: url(tree_bark/tree.png);
     
 }
 
 img {width: 100%;}
 
 #wrapper {
-    background-color: #fff;
+    background-image: url(tree_bark/tree.png);
     margin: 0 auto;
     width: 90%;
     padding: 1px 10px
 }
 
-nav, section, footer {
-      background-color: #096600;
-    padding: 0 10px;    
+section, footer {
+    background-color: #93C83C;
+    padding: 10px 10px 10px 10px;  
+    
+    
 }
 
 header {
@@ -44,42 +46,67 @@ header h1 {
 header img{
         margin-top: 10px;
 }
+    
+    
+
 nav{
-    margin-top: 10px;
-    
-    
+    width: 550px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, san-serif;
+    font-weight: bold;
+    text-align:center;
+    text-shadow: 3px 2px 3px #93C83C;
+    background-color: #93C83C;
+    border-radius: 8px    
     
 }
+
+#nav ul{
+    height:auto;
+    padding: 8px 0px;
+    margin: 0px; 
+}
+
+#nav li{
+    display: inline;
+    padding: 20px;
+    
+}
+
+#nav a{
+    text-decoration: none;
+    color: #D3E021;
+    
+}  
+    
 
 section{
   
 }
-        
 
-footer {
-   
-        
-   
+
+section p+ a {
+    display: block;
+    margin-bottom: 20px;
+    float: left;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 5px 10px 10px;
+    text-decoration: none;
+    text-align: justify;
 }
-
-
-#page {
-    background: #f3cfb6;
-}
-
-
-
-  
-    
+        
 article {
     background: url(tree_bark/tree.png);
     padding: 1.5em 5% 0.625em;
-    color: #096600;
+    color: #93C83C;
     font-size: 0.9em;
+    margin: 0 0 20px;
+    max-width: 100%;
+    height: auto
+    
 }
-
-        
-            
 
 article h1 {
     font-family: Arial, Helvetica, san-serif;
@@ -88,8 +115,21 @@ article h1 {
     margin: 0 0 20px;
     line-height: 8px
 }
+footer {
+   border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+        
+   
+}
+
+
+#page {
+    background: #93C83C;
+}
+
 p {
-    margin:16px 0;
+    margin:24px 0;
+    width: 50%
     
 }
 
@@ -98,33 +138,3 @@ article ul {
 }
 
 
-@media screen and (max-width: 600px) {
-    
-    body {
-       padding: 3%;
-    
-    } 
-    
-    #h1, h2 {
-        text-align: center;
-        
-    }
-    
-    #p {
-        text-align: left
-        
-        
-    }
-    nav {
-        width: 100%;
-        
-        
-    }
-    #content {
-       
-        clear: left;
-        margin-left: 5%;
-        width: 100%;
-}
-    
-    
