@@ -1,89 +1,96 @@
+@charset "UTF-8";
 
+* {box-sizing: border-box;}
+
+/*main content*/
 body {
     margin: 0 auto;
     padding: 2em;
     max-width: 800px;
-    font-family: Papyrus, Arial, Helvetica, san-serif;
+    font-family: Arial, Helvetica, san-serif;
     font-size: 16px;
     line-height: 1.5em;
     color: #fff;
-    background-color: #003322;
+    background-color: #096600;
     
 }
 
-nav{
-    background:url(tree_bark/tree.png);
-    padding: 0.625em 5%;  
-    
-}
-        
-        
+img {width: 100%;}
 
+#wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 90%;
+    padding: 1px 10px
+}
+
+nav, section, footer {
+      background-color: #096600;
+    padding: 0 10px;    
+}
 
 header {
-        padding: 0.625em 5%;
-        font-family: Papyrus, Arial, Helvetica, san-serif;
-        font-weight: 400;
-        color: #fff;
-        height: 40px; 
+        
 }    
 
-header a:link {
-    color: #fff
+header h1 {
+    margin: 10px 0;
+    font-size:80px;
+    padding-bottom: 50px;
+    font-family:  Arial, Helvetica, san-serif;
+    line-height: 1px;
+    text-indent: -10000px;
 }
-header a:visited {
-    color: #fff
+header img{
+        margin-top: 10px;
 }
-header a:hover{
-    color: #fff;
-}
-
-
-
-
-article a:link, article a:visited{
-    color:#003322;
-    text-decoration:none;
-}
-
-article a:hover, article a:active {
-    text-decoration:underline;
-}
-        
+nav{
+    margin-top: 10px;
     
+    
+    
+}
+
+section{
+  
+}
         
+
+footer {
+   
         
+   
+}
+
+
+#page {
+    background: #f3cfb6;
+}
+
+
+
   
     
 article {
     background: url(tree_bark/tree.png);
     padding: 1.5em 5% 0.625em;
-    color: #003322;
+    color: #096600;
     font-size: 0.9em;
 }
-footer {
-    padding: 0.625em 5%;
-    color:#1a99c4;
-    
-}
+
         
             
-header h1 {
-    margin: 10px 0;
-    font-size:80px;
-    padding-bottom: 50px;
-    font-family: Papyrus, Arial, Helvetica, san-serif;
-    line-height: 1px;
-}
+
 article h1 {
-    font-family:Papyrus, Arial, Helvetica, san-serif;
+    font-family: Arial, Helvetica, san-serif;
     font-size:32px;
     font-weight:700;
     margin: 0 0 20px;
     line-height: 8px
 }
-article p {
+p {
     margin:16px 0;
+    
 }
 
 article ul {
@@ -91,21 +98,7 @@ article ul {
 }
 
 
-aside {
-    background-color: #fff;
-    float: right;
-    width: 50%; 
-    margin: 0 0 10% 5%;
-}
-
-footer {
-    clear: right;
-    font-size: 12px;
-    padding: 0 10px 0 10px;
-    margin-bottom: 10px;
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     
     body {
        padding: 3%;
