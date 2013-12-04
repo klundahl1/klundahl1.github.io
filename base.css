@@ -11,45 +11,44 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     color: #D3E021;
-    background-image: url(tree_bark/tree.png);
+    background-image:url(tree_bark/tree.png)
+    
     
 }
 
 img {width: 100%;}
 
 #wrapper {
-    background-image: url(tree_bark/tree.png);
+    background-image: url(images/grass.jpg);
     margin: 0 auto;
     width: 90%;
-    padding: 1px 10px
+    padding: 100px 100px;
 }
 
 section, footer {
     background-color: #93C83C;
     padding: 10px 10px 10px 10px;  
-    
-    
-}
-
-header {
         
-}    
+}
+   
 
 header h1 {
     margin: 10px 0;
     font-size:80px;
+    line-height: 80px;
     padding-bottom: 50px;
     font-family:  Arial, Helvetica, san-serif;
-    line-height: 1px;
     text-indent: -10000px;
 }
 header img{
         margin-top: 10px;
+        background-image: url(tree_bark/tree.png);
+        
 }
     
     
 
-nav{
+#navigation {
     width: 550px;
     font-size: 16px;
     font-family: Arial, Helvetica, san-serif;
@@ -61,13 +60,13 @@ nav{
     
 }
 
-#nav ul{
+#navigation ul{
     height:auto;
     padding: 8px 0px;
     margin: 0px; 
 }
 
-#nav li{
+#navigation li{
     display: inline;
     padding: 20px;
     
@@ -80,23 +79,14 @@ nav{
 }  
     
 
-section{
-  
-}
-
-
-section p+ a {
-    display: block;
-    margin-bottom: 20px;
-    float: left;
+aside{
     width: 50%;
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 10px 5px 10px 10px;
-    text-decoration: none;
-    text-align: justify;
+    float: none;
+    margin: 00 10px 5%;
+    width: 47.5%;
+     
 }
-        
+   
 article {
     background: url(tree_bark/tree.png);
     padding: 1.5em 5% 0.625em;
@@ -104,7 +94,7 @@ article {
     font-size: 0.9em;
     margin: 0 0 20px;
     max-width: 100%;
-    height: auto
+    height: auto;
     
 }
 
@@ -117,11 +107,22 @@ article h1 {
 }
 footer {
    border-radius: 0 0 10px 10px;
-    margin-bottom: 20px;
-        
-   
+    margin-bottom: 20px;   
 }
 
+#description{
+    float: right;
+    width: 60%;
+}
+
+#book img {
+    width: 30%;
+    
+}
+
+#social img { 
+    width: 15%;
+}
 
 #page {
     background: #93C83C;
@@ -129,7 +130,7 @@ footer {
 
 p {
     margin:24px 0;
-    width: 50%
+    width: 50%;
     
 }
 
@@ -137,4 +138,40 @@ article ul {
     margin: 16px 0;
 }
 
-
+@media screen and (max-width: 600px) {
+    
+    body {
+       padding: 3%;
+    
+    } 
+    
+    #h1, h2 {
+        text-align: center;
+        
+    }
+    
+    #p {
+        text-align: left;
+        
+        
+    }
+    nav {
+        width: 100%;
+        
+        
+    }
+    #content {
+       
+        clear: left;
+        margin-left: 5%;
+        width: 100%;
+    }
+    
+    #wrapper {
+     width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+                
+}
